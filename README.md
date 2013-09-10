@@ -1,0 +1,4 @@
+usefulPHP
+=========
+
+Useful PHP functions
