@@ -118,6 +118,9 @@ function make_clickable($text) {
     return $text;
 } 
 
+function int_validate($number, $min_length, $max_length) {	
+	return preg_match('/^[0-9]{'.$min_length.','.$max_length.'}$/', strval($number)) ? true : false;
+}
 
 ?>
 
