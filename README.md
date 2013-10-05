@@ -21,4 +21,5 @@ Function List
 * get_ip
 * force_download
 * make_clickable
+* int_validate
 
